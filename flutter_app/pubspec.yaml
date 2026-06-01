@@ -1,0 +1,26 @@
+name: asistencia_qr_app
+description: "Aplicación de control de asistencia con código QR"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  http: ^1.2.0
+  mobile_scanner: ^5.0.0
+  table_calendar: ^3.1.2
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
